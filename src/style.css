@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "karla", sans-serif;
+    margin: 0;
+}
+
+main{
+    padding: 36px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg,#672280 1.18%,#A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+.header--image{
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title{
+    font-size: 1.25rem;
+    margin-right: auto;
+   
+}
+
+.header--project{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.form{
+    display: grid;
+    grid-template:40px 40px / 1fr 1fr;
+    gap: 17px
+}
+
+.form--input{
+    font-family: "karla", sans-serif;
+    border-radius: 5px ;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    
+}
+
+.form--button{
+    grid-column: 1/-1;
+    font-family: "karla", sans-serif;
+    background: linear-gradient(90deg,#672280 1.18%,#A626D3 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.meme--image{
+    max-width: 100%;
+    height: 500px;
+    width: 600px;
+    background-color: aqua;
+    text-align: center;
+}
+.meme{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right:4px;
+
+}
+
+.meme--text--top{
+    position: absolute;
+    top: 8px;
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    max-width: 600px;
+    margin:60px;
+    margin-left:200px;
+    margin-right:200px;
+    line-height: 0.9;
+    padding-left: 50px;
+    letter-spacing: -2px;
+  
+}
+.meme--text--bottom{
+    position: absolute;
+  bottom: 8px;
+  font-size: 70px;
+  font-weight: 900;
+  color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    max-width: 600px;
+    margin:60px;
+    padding-left: 50px;
+    margin-left:200px;
+    line-height: 0.9;
+    margin-right:200px;
+    
+  
+}
