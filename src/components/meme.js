@@ -5,7 +5,7 @@ function Meme() {
     const [meme, setMeme] = useState({
         topText: "",
         bottomText: "",
-        randomImage: "https://i.imgflip.com/1jwhww.jpg"
+        randomImage: "https://i.imgflip.com/1g8my4.jpg"
     })
 
     const [allMemes, setallMemes] = React.useState([])
